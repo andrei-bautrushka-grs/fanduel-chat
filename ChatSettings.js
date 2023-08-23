@@ -1,4 +1,5 @@
 (function () {
+    console.log('-ChatSettings-');
     embedded_svc.addEventHandler("onChatEstablished", function (data) {
         window.parent.name = data.liveAgentSessionKey;
     });
