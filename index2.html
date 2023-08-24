@@ -35,7 +35,7 @@
         embedded_svc.addEventHandler("onChatEstablished", function (data) {
         window.parent.name = data.liveAgentSessionKey;
     });
-    embedded_svc.snippetSettingsFile.extraPrechatInfo = [
+    embedded_svc.settings.extraPrechatInfo = [
         {
             entityName: "Contact",
             showOnCreate: true,
